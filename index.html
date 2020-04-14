@@ -6,7 +6,7 @@
 
   <title>My Resume</title>
 
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/index/index.css">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -14,6 +14,63 @@
 </head>
 
 <body>
-  <h1>My Resume</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="opening">
+    <img src="images/me.jpg" alt="Picture of Kyle Clopton"></img>
+    <h1>Kyle Clopton - Web Dev</h1>
+    <h2 class="teamup">I love coding!</h2>
+      <h3>I do freelance projects. I would love to work with you! If you're interested, click the button below.</h3>
+      <button>Lets Team Up!</button>
+  </div>
+  <div class="aboutme">
+    <section class="mymission">
+      <h2>My Mission...</h2>
+      <p>...Is to provide top-level quality work as a freelance web developer to small businesses.
+        My passion is development. I want to collobarote with you to bring websites to your clients that
+        perfectly represent you and your business objectives.
+      </p>
+    </section>
+    <section class="myskills">
+      <h2>My skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>css</li>
+          <li>JavaScript</li>
+          <li>Ruby on Rails</li>
+          <li>Cooking</li>
+        </ul>
+    </section>
+  </div>
+  <div>
+    <section class="workhistory">
+      <h2>Work History</h2>
+        <ul class="title">
+          <li id="years">Years</li>
+          <li id="company">Company</li>
+          <li id="title">Title</li>
+          <li id="tech">Tech</li>
+        </ul>
+        <ul class="projectmanagement">
+          <li id="years">1.5</li>
+          <li id="company">Swisslog</li>
+          <li id="title">Project Manager</li>
+          <li id="tech">WMS - Java</li>
+        </ul>
+        <ul>
+          <li id="years">2</li>
+          <li id="company">Swisslog</li>
+          <li id="title">Integration Manager</li>
+          <li id="tech">WMS - Java</li>
+        </ul>
+    </section>
+  </div>
+  <footer>
+    <h1>Copyright awesome resume 2020</h1>
+  </footer>
 </body>
 </html>
